@@ -1,0 +1,14 @@
+bcrypt==5.0.0
+certifi==2026.10.19
+cffi==2.1.1
+charset-normalizer==3.5.2
+crypto==1.4.1
+cryptography==50.0.2
+idna==3.20
+mysql-connector-python==26.10.0
+Naked==0.1.32
+pycparser==3.12
+PyYAML==6.0.3
+requests==2.34.2
+shellescape==3.8.1
+urllib3==2.8.0
