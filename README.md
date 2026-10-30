@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🔐 Python CLI Password Manager
 
 A secure, local command-line password manager built in Python. It uses **MySQL** for data storage, **bcrypt** for user authentication, and **Fernet (AES-128)** for vault encryption. 
@@ -54,3 +55,6 @@ During development, I intentionally tested for vulnerabilities to understand how
 □ Implement a password generator.
 □ Add a GUI (Tkinter or PyQt) or Web Interface (Flask).
 □ Implement auto-lock after X minutes of inactivity.
+=======
+- TEMP -
+>>>>>>> 8bda605e361e458a71b7675f8f8cf39802f9c87c
