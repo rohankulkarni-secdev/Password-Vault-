@@ -17,6 +17,7 @@ def setupDB():
                 (id INT AUTO_INCREMENT PRIMARY KEY, 
                 user_id INT NOT NULL, 
                 site VARCHAR(20) NOT NULL, 
+                site_username VARCHAR(20) NOT NULL,
                 password_encrypted TEXT NOT NULL, 
                 FOREIGN KEY (user_id) REFERENCES users(id))""")
     con.commit()
@@ -27,3 +28,4 @@ def getCon():
     con=sq.connect(host='localhost', user='root',password='', database='vaultdb')
     curs=con.cursor()
     return con,curs
+
